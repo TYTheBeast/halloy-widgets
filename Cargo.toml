@@ -19,7 +19,7 @@ ipc = { version = "0.1.0", path = "ipc" }
 notify-rust = "4"
 chrono = { version = "0.4", features = ['serde'] }
 fern = "0.6.1"
-iced = { version = "0.14.0-dev", default-features = false, features = [
+iced = { version = "0.13.1", default-features = false, features = [
     "wgpu",
     "tiny-skia",
     "fira-sans",
